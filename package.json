@@ -1,0 +1,16 @@
+{
+  "name": "lienriviere",
+  "version": "0.0.1",
+  "description": ".env object parser with annotations",
+  "main": "index.ts",
+  "repository": "https://github.com/lienriviere/dotenv-parser",
+  "author": "Lien Riviere",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  }
+}
