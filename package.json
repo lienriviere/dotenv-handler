@@ -10,7 +10,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "test:all": "npm run test --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "test:invarser": "npm run test --workspace=invarser"
+  },
   "devDependencies": {
-    "lerna": "^6.4.1"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "invarser",
+  "version": "0.0.1",
+  "description": "dot env parser with annotations",
+  "main": "lib/invarser.ts",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.4.1",
+    "ts-jest": "^29.0.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lienriviere/dotenv-handler.git"
+  },
+  "author": "Lien Riviere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lienriviere/dotenv-handler/issues"
+  },
+  "homepage": "https://github.com/lienriviere/dotenv-handler#readme"
+}
